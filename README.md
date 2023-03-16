@@ -31,17 +31,18 @@ Using flask framework to build a web application.
 ### ■   NO_Prediction 👇🏻
 ![no_pred](https://user-images.githubusercontent.com/74102314/225615861-ad6fe815-a0ba-4c35-b6d8-82b61598d750.PNG)
 
+
 ◉ This project involves several technologies and tools , Here are some commonly used ones:
 
-• Python: the primary programming language used in this project to implement the CNN model, the Flask web application, and the data processing pipeline.
+ ● **Python:** the primary programming language used in this project to implement the CNN model, the Flask web application, and the data processing pipeline.
 
-• TensorFlow :deep learning framework that is used to implement the CNN model for facial expression recognition.
+ ● **TensorFlow:** deep learning framework that is used to implement the CNN model for facial expression recognition.
 
-• OpenCV: open-source computer vision library that is used for image and video processing ,capture live video feeds,and perform other image processing tasks.
+ ● **OpenCV:** open-source computer vision library that is used for image and video processing ,capture live video feeds,and perform other image processing tasks.
 
-• Flask: micro web framework that is used to build the web application that runs the facial expression recognition model.
+ ● **Flask:** micro web framework that is used to build the web application that runs the facial expression recognition model.
 
-• HTML/CSS/JavaScript: for building the web front-end. 
+ ● **HTML/CSS/JavaScript:** for building the web front-end. 
 
 
 ## ◉ The objectives of the project are as follows: 
