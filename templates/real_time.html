@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Face Emotion</title>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,600" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/style.css">
+	<script src="https://unpkg.com/animejs@3.0.1/lib/anime.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+ 
+</head>
+<body class="is-boxed has-animations">
+    <div class="body-wrap">
+       
+            <section class="hero" id="image">
+                <div class="container">
+                    <h2 style="color: darkgray; text-align: center; margin-top: 10px; ">Real Time Video</h2>
+                    <div class="hero-inner"> 
+                        <div class="drag-area">
+                            <img style="margin-top:20px;" src="{{ url_for('video_feed') }}"> <br>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+             
+            <style>
+                @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+                .drag-area {
+                    border: 2px dashed #808080;
+                    height: 600px;
+                    width: 870px;
+                    border-radius: 5px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    margin:auto;
+                    
+                }
+
+                    .drag-area.active {
+                        border: 2px solid #fff;
+                    }
+
+                    .drag-area .icon {
+                        font-size: 100px;
+                        color: #fff;
+                    }
+
+                    .drag-area header {
+                        font-size: 30px;
+                        font-weight: 500;
+                        color: #fff;
+                    }
+
+                    .drag-area span {
+                        font-size: 25px;
+                        font-weight: 500;
+                        color: #fff;
+                        margin: 10px 0 15px 0;
+                    }
+
+                    .drag-area button {
+                        padding: 10px 25px;
+                        font-size: 20px;
+                        font-weight: 500;
+                        border: none;
+                        outline: none;
+                        background: #fff;
+                        color: #5256ad;
+                        border-radius: 5px;
+                        cursor: pointer;
+                    }
+
+                    .drag-area img {
+                        height: 100%;
+                        width: 100%;
+                        object-fit: cover;
+                        border-radius: 5px;
+                    }
+            </style>
+             
+ </div>
+    <script src="static/js/main.min.js"></script>
+</body>
+</html>

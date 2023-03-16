@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Face Emotion</title>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,600" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/style.css">
+	<script src="https://unpkg.com/animejs@3.0.1/lib/anime.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+ 
+</head>
+<body class="is-boxed has-animations">
+    <div class="body-wrap">
+          
+        <main>
+            <section class="hero">
+                <div class="container">
+                    <div class="hero-inner">
+                        <div class="hero-copy">
+                            <h1 class="hero-title mt-0" style="font-size:70px;">Face Emotion <br /> Recognition</h1>
+                             
+                            <!--<p class="hero-paragraph">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>-->
+                            <br /> 
+                            <div class="hero-cta">
+                                <a class="button button-primary" href="#start" style="border-radius:25px;">Get Started !</a>
+                                <!--<a class="button" href="#">Learn More</a>-->
+                            </div>
+                        </div>
+                        <div >
+                            <img src="static/images/face.png" alt="" style="height:600px;width:600px;" >
+
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="features section" id="start">
+                <br /><br /><br />
+                <div class="container">
+
+                    <div class="features-inner section-inner has-bottom-divider">
+                        <div class="features-wrap">
+                            <div class="feature text-center is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+                                        <img src="static/images/cam.png" alt="Feature 01" style=" height:150px;height:150px;">
+                                    </div>
+                                    <h6 class="feature-title mt-24">Real-time Video</h6>
+                                    <br />
+                                    <div class="hero-cta">
+                                        <form action="/RealTime" method="post">
+                                            <input type="submit" value="Start" class="button button-primary" />
+                                        </form>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div class="feature text-center is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+                                        <img src="static/images/image.png" alt="Feature 02" style=" height:150px;height:150px;">
+                                    </div>
+                                    <h6 class="feature-title mt-24">Upload Image </h6>
+                                    <br />
+                                    <div class="hero-cta">
+                                        <form action="/ImageUpload" method="post"> 
+                                            <input type="submit"  value="Start" class="button button-primary" />
+                                        </form>
+                                    </div>
+                                    <!--<p class="text-sm mb-0">Fermentum posuere urna nec tincidunt praesent semper feugiat nibh. A arcu cursus vitae congue mauris. Nam at lectus urna duis convallis. Mauris rhoncus aenean vel elit scelerisque mauris.</p>-->
+                                </div>
+                            </div>
+                            <div class="feature text-center is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+                                        <img src="static/images/url.png" alt="Feature 03" style=" height:150px;height:150px;">
+                                    </div>
+                                    <h6 class="feature-title mt-24">URL of the Image</h6>
+                                    <br />
+                                    <div class="hero-cta">
+                                        <form action="/UrlUpload" method="post">
+                                            <input type="submit" value="Start" class="button button-primary" />
+                                        </form>
+                                         
+                                    </div>
+                                    <!--<p class="text-sm mb-0">Fermentum posuere urna nec tincidunt praesent semper feugiat nibh. A arcu cursus vitae congue mauris. Nam at lectus urna duis convallis. Mauris rhoncus aenean vel elit scelerisque mauris.</p>-->
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <br /> <br /> <br /> <br /><br />
+
+            
+            </main>
+ 
+                     
+                </div>
+            
+   
+
+    <script src="static/js/main.min.js"></script>
+</body>
+</html>

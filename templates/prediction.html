@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Face Emotion</title>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,600" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/style.css">
+	<script src="https://unpkg.com/animejs@3.0.1/lib/anime.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+ 
+</head>
+<body class="is-boxed has-animations">
+    <div class="body-wrap">
+          
+         
+            <section class="pricing section" id="prediction">
+                <div class="container-sm">
+                    <div class="pricing-inner section-inner">
+                        <div class="banner-text">
+                            <div style="color:#0A043C" class="animation-area" >
+
+                                <h1 style="color: Highlight;text-align: center;">Here is the Prediction ! </h1>
+                                <div style="padding-top:20px;display:flex;align-items:center;
+                                    justify-content:center;text-align:center;">
+                                    <div style="padding: 20px; border: dashed #808080; margin:10px;">
+                                        <h3 style="color: Highlight">Input Image</h3>
+                                        <img src="/static/{{orig}}" alt="Original"  >
+                                    </div>
+                                    <div style="padding: 20px; border: dashed #808080;">
+                                        <h3 style="color: Highlight">Prediction</h3>
+                                        <img src="/static/{{pred}}" alt="Prediction"   >
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--<div style="display:flex;flex-direction:column; align-items:center;
+                                   justify-content:center;
+                                   text-align:center;">
+                                <div class="animation-area" style="height: 100vh;display:flex;flex-direction:column; align-items:center;
+                                    justify-content:center;text-align:center;color:#FFE3DE;">
+                                    <div>
+                                        <h3>Graphical Visualisation</h3>
+                                        <img src="/static/{{bar}}" alt="Visualisation" style="width:400px;height:500px;padding-top:20px;">
+                                    </div>
+                                </div>
+                            </div>-->
+
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+         
+                  
+                </div>
+            
+   
+
+    <script src="static/js/main.min.js"></script>
+</body>
+</html>
