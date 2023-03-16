@@ -32,7 +32,7 @@ Using flask framework to build a web application.
 ![no_pred](https://user-images.githubusercontent.com/74102314/225615861-ad6fe815-a0ba-4c35-b6d8-82b61598d750.PNG)
 
 
-◉ This project involves several technologies and tools , Here are some commonly used ones:
+## ◉ This project involves several technologies and tools , Here are some commonly used ones:
 
  ● **Python:** the primary programming language used in this project to implement the CNN model, the Flask web application, and the data processing pipeline.
 
