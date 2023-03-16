@@ -30,7 +30,7 @@ Deep Learning-based Flask web app that predicts the Facial Expressions of users 
 
 • explore the dataset FER-2013.
 
-• Data analysis and Creating Training and Validation Batches.  
+• Data analysis,Data Augmentation and Creating Training and Validation Batches.  
 
 • Create a CNN using 4 Convolutional Layers including Batch Normalization, Activation, Max Pooling, Dropout Layers followed by Flatten Layer, 2 Fully Connected dense Layers and finally Dense Layer with SoftMax Activation Function.    
 
