@@ -3,9 +3,12 @@ Deep Learning-based Flask web app that predicts the Facial Expressions of users 
 
 ## in this project the Model can take input through following ways :
 
-•   Real-time Video input
-•   Upload Images from your pc
-•   Enter image URL
+•   Real-time Video input  
+
+•   Upload Images from your pc  
+
+•   Enter image URL 
+
 ![start](https://user-images.githubusercontent.com/74102314/225615927-28821c8f-c790-4345-ad30-0f331f88bb6f.PNG)
 
 •   Real-time Video input
