@@ -2,7 +2,8 @@
 Deep Learning-based Flask web app that predicts the Facial Expressions of users in real time, by image or image url.
 
 I have trained a CNN model for facial expression detection with the FER2013 dataset containing 7 emotion classes
-('Angry', 'Disgust', 'Fear', 'Happy', 'Sad', 'Surprise', 'Neutral').
+('Angry'😡 , 'Disgust'😖, 'Fear'😥, 'Happy'😄, 'Sad'😢, 'Surprise'😲, 'Neutral'🙂).
+
 Using flask framework to build a web application.
 
 
